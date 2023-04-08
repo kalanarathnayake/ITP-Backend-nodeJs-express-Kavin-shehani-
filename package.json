@@ -1,0 +1,22 @@
+{
+  "name": "derana-assignment-backend",
+  "version": "1.0.0",
+  "description": "Assignment for derana ASE position",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Kalana Rathnayake",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
