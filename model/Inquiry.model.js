@@ -6,7 +6,7 @@ const InquirySchema = new Schema({
     type: { type: String, required: true },
     description: { type: String, required: true },
     contactNum: { type: String, required: true },
-    address: { type: String, required: true },
+    address: { type: String, required: true }, 
     date: { type: Date, required: true },
     status: { type: String, required: true },
 }, {
