@@ -29,6 +29,5 @@ router.get("/", getTicket);
 //@desc   update ticket record
 router.put("/:id", updateTicket);
 
-
 module.exports = router;
 

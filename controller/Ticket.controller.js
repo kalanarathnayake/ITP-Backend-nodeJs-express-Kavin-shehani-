@@ -3,12 +3,13 @@ const Ticket = require('../model/Tickets.model');
 //Create new ticket 
 const createTicket = async (req, res) => {
     //catching data from front end to these attributes
-    const { firstName, lastName, phoneNumber, bookingDate, toLocation, price } = req.body;
+    const { firstName, lastName,passportID, phoneNumber, bookingDate, toLocation, price } = req.body;
 
     //create a object to store saved data to save in the mongo db database
     const ticket = new Ticket({
         firstName,
         lastName,
+        passportID,
         phoneNumber,
         bookingDate,
         toLocation,
@@ -59,6 +60,7 @@ const updateTicket = async (req, res) => {
         then((exsistingTicket) => {
             exsistingTicket.firstName = req.body.firstName;
             exsistingTicket.lastName = req.body.lastName;
+            exsistingTicket.passportID = req.body.passportID;
             exsistingTicket.phoneNumber = req.body.phoneNumber;
             exsistingTicket.bookingDate = Date.parse(req.body.bookingDate);
             exsistingTicket.toLocation = req.body.toLocation;
