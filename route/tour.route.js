@@ -29,6 +29,5 @@ router.get("/", getTour);
 //@desc   update tour Package record
 router.put("/:id", updateTour);
 
-
 module.exports = router;
 

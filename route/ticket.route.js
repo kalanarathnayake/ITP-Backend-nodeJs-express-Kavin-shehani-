@@ -30,4 +30,3 @@ router.get("/", getTicket);
 router.put("/:id", updateTicket);
 
 module.exports = router;
-

@@ -30,4 +30,3 @@ router.get("/", getGuide);
 router.put("/:id", updateGuide);
 
 module.exports = router;
-

@@ -1,15 +1,5 @@
 const Guide = require('../model/guide.model');
 
-/*
-    guideName: { type: String, required: true },
-    email: { type: String, required: true },
-    langType: { type: String, required: true },
-    serviceType: { type: String, required: true },
-    mobileNumber: { type: String, required: true },
-    address: { type: String, required: true },
-    nic: { type: String, required: true },
-*/
-
 //Create new guide pack 
 const createGuide = async (req, res) => {
     //catching data from front end to these attributes

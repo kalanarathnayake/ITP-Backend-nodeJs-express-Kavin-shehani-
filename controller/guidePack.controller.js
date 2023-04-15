@@ -1,13 +1,5 @@
 const GuidePack = require('../model/guidePack.model');
 
-/*
-    guideName: { type: String, required: true },
-    touristArea: { type: String, required: true },
-    langType: { type: String, required: true },
-    vehicleType: { type: String, required: true },
-    price: { type: String, required: true },
-*/
-
 //Create new guide pack 
 const createGuidePack = async (req, res) => {
     //catching data from front end to these attributes

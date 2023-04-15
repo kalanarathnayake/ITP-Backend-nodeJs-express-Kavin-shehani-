@@ -1,13 +1,13 @@
 {
-  "name": "derana-assignment-backend",
+  "name": "ITPBYKGR",
   "version": "1.0.0",
-  "description": "Assignment for derana ASE position",
+  "description": "ITPBYKGR",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js"
   },
-  "author": "Kalana Rathnayake",
+  "author": "KGR",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

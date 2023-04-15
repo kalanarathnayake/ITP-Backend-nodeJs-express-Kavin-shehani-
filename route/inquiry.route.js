@@ -30,4 +30,3 @@ router.get("/", getInquiry);
 router.put("/:id", updateInquiry);
 
 module.exports = router;
-
